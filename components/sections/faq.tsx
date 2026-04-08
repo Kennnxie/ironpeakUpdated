@@ -49,7 +49,7 @@ export default function Faq() {
                 </div>
 
                 <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_420px]">
-                    <div className="w-full h-[482px] rounded border border-zinc-800 bg-white p-6 md:p-8">
+                    <div className="w-full h-auto lg:h-[482px] rounded border border-zinc-800 bg-white p-6 md:p-8">
                         <Accordion type="single" collapsible defaultValue="services">
                             {items.map((item) => (
                                 <AccordionItem key={item.value} value={item.value} className="py-2 border-b last:border-b-0 border-black">
